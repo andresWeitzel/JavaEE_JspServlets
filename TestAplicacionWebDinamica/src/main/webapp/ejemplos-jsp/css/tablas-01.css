@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+nav {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #dddddd;
+	align-content:right;
+	text-align: right;
+	padding: 1em;
+	margin-top: 0px;
+}
+
+section {
+	margin: 1em;
+	
+	
+}
+section .ul{
+	align-content:left;
+	text-align: left;
+}
+
+h1,h3{
+	align-content:center;
+	text-align: center;
+	text-decoration: underline;
+}
+
+a{
+	margin:1em;
+	margin-right: 1em;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 0.5em;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+
+footer{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #dddddd;
+	align-content:center;
+	text-align: center;
+	padding: 1em;
+	margin-top:5em;	
+	margin-bottom:0em;
+
+
+
+}
+
+
+

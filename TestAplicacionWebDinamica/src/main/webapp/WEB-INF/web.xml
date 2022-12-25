@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+id="WebApp_ID" version="4.0">
   <display-name>TestAplicacionWebDinamica</display-name>
+  <description>Test de Aplicación Web Dinamica</description>
+  
+  <!-- Doc Oficial webApp: https://www.oracle.com/technical-resources/articles/javase/webappdev.html -->
+  <!--Doc Oficial Tags: https://docs.oracle.com/cd/E13222_01/wls/docs81/webapp/web_xml.html#1014756 -->
+  
+  <!-- Doc Of weblogic.xml : https://docs.oracle.com/cd/E13222_01/wls/docs81/webapp/weblogic_xml.html#1039261 -->
+ <!-- TEMA A FUTURO : Web.xml es específico de las aplicaciones web (por ejemplo, servlets), mientras que weblogic.xml 
+ se aplica a todas las aplicaciones. Además, debe incluir weblogic.xml todas las configuraciones que sean específicas del
+  proveedor. Un ejemplo es conectar un rol de seguridad con el usuario o grupo real -->
+  
   <welcome-file-list>
   <welcome-file>Persona.jsp</welcome-file>
    <welcome-file>index.jsp</welcome-file>
